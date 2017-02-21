@@ -13,7 +13,7 @@ include "../Template2Cal.php";
                 <div class="panel_header" align="center">Unread</div>
                 <br>
                 <div class="panel_content" align="center"
-                     style="font-size: 60px"><?php echo round(($Unread / $Total) * 100); ?><span
+                     style="font-size: 60px"><?php echo round(($Unread2 / $Total2) * 100); ?><span
                         style="font-size: 30px;"> %</span></div>
             </div>
         </div>
@@ -22,7 +22,7 @@ include "../Template2Cal.php";
                 <div class="panel_header" align="center">Open</div>
                 <br>
                 <div class="panel_content" align="center"
-                     style="font-size: 60px"><?php echo round(($Read / $Total) * 100); ?><span style="font-size: 30px;"> %</span>
+                     style="font-size: 60px"><?php echo round(($Read2 / $Total2) * 100); ?><span style="font-size: 30px;"> %</span>
                 </div>
             </div>
         </div>
@@ -30,7 +30,7 @@ include "../Template2Cal.php";
             <div class="panel">
                 <div class="panel_header" align="center">Replied</div>
                 <div class="panel_content" align="center" style="font-size: 60px"><span
-                        style="font-weight: 800;font-size: 70px;"><?php echo round(($Replied / $Total) * 100) . "</span>"; ?>
+                        style="font-weight: 800;font-size: 70px;"><?php echo round(($Replied2 / $Total2) * 100) . "</span>"; ?>
                         <span style="font-size: 30px;"> %</span>
                 </div>
             </div>
@@ -40,7 +40,7 @@ include "../Template2Cal.php";
                 <div class="panel_header" align="center">Total</div>
                 <div class="panel_content"
                      align="center" style="font-size: 60px"><span
-                        style="font-weight: 800;font-size: 70px;"><?php echo round(($Total / $Total) * 100) . "</span>"; ?>
+                        style="font-weight: 800;font-size: 70px;"><?php echo round(($Total2 / $Total2) * 100) . "</span>"; ?>
                         <span style="font-size: 30px;"> %</span>
                 </div>
             </div>
