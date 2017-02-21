@@ -11,26 +11,26 @@ include "Template1Cal.php";
         <div class="col-md-2">
             <div class="panel">
                 <div class="panel_header" align="center">Unread</div>
-                <div class="panel_content" align="center"><?php echo $Unread; ?></div>
+                <div class="panel_content" align="center"><?php echo $Unread1; ?></div>
             </div>
         </div>
         <div class="col-md-2">
             <div class="panel">
                 <div class="panel_header" align="center">Open</div>
-                <div class="panel_content" align="center"><?php echo $Read; ?></div>
+                <div class="panel_content" align="center"><?php echo $Read1; ?></div>
             </div>
         </div>
         <div class="col-md-2">
             <div class="panel">
                 <div class="panel_header" align="center">Replied</div>
-                <div class="panel_content" align="center"><?php echo $Replied; ?></div>
+                <div class="panel_content" align="center"><?php echo $Replied1; ?></div>
             </div>
         </div>
         <div class="col-md-2">
             <div class="panel">
                 <div class="panel_header" align="center">Total</div>
                 <div class="panel_content"
-                     align="center"><?php echo $Total; ?></div>
+                     align="center"><?php echo $Total1; ?></div>
             </div>
         </div>
     </div>

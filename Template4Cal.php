@@ -3,7 +3,7 @@
 include "ConnectDB.php";
 
 // Query status OPEN
-$sql = "SELECT `template_version`,count(`action`)FROM sugarcrm_hr.email_tracking WHERE template_version='DBS2016V4' && `action`='open'";
+$sql = "SELECT `template_version`,count(`action`)FROM sugarcrm_hr.email_tracking WHERE template_version='DBS2017V4' && `action`='open'";
 
 $result = $conn->query($sql);
 
@@ -22,7 +22,7 @@ if ($result->num_rows > 0) {
     echo "0 results";
 }
 // Query status Unread
-$sql = "SELECT `template_version`,count(`action`)FROM sugarcrm_hr.email_tracking WHERE template_version='DBS2016V4' && `action`='unread'";
+$sql = "SELECT `template_version`,count(`action`)FROM sugarcrm_hr.email_tracking WHERE template_version='DBS2017V4' && `action`='unread'";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
@@ -39,7 +39,7 @@ if ($result->num_rows > 0) {
     echo "0 results";
 }
 // Query status Repiled
-$sql = "SELECT `template_version`,count(`action`)FROM sugarcrm_hr.email_tracking WHERE template_version='DBS2016V4' && `action`='replied'";
+$sql = "SELECT `template_version`,count(`action`)FROM sugarcrm_hr.email_tracking WHERE template_version='DBS2017V4' && `action`='replied'";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
@@ -56,7 +56,7 @@ if ($result->num_rows > 0) {
     echo "0 results";
 }
 // Query status Click
-$sql = "SELECT `template_version`,count(`action`)FROM sugarcrm_hr.email_tracking WHERE template_version='DBS2016V4' && `action`='click'";
+$sql = "SELECT `template_version`,count(`action`)FROM sugarcrm_hr.email_tracking WHERE template_version='DBS2017V4' && `action`='click'";
 
 $result = $conn->query($sql);
 
@@ -73,7 +73,7 @@ if ($result->num_rows > 0) {
     echo "0 results";
 }
 // Calculate all of thing ------------------------------------------
-$Read = $_SESSION['ActionCountClick']+$_SESSION['ActionCount'];
-$Unread = $_SESSION['ActionCountUnread'];
-$Replied = $_SESSION['ActionCountReplied'];
-$Total = $_SESSION['ActionCountUnread'] + $_SESSION['ActionCount']+$_SESSION['ActionCountClick'] + $_SESSION['ActionCountReplied'];
+$Read4 = $_SESSION['ActionCountClick']+$_SESSION['ActionCount'];
+$Unread4 = $_SESSION['ActionCountUnread'];
+$Replied4 = $_SESSION['ActionCountReplied'];
+$Total4 = $_SESSION['ActionCountUnread'] + $_SESSION['ActionCount']+$_SESSION['ActionCountClick'] + $_SESSION['ActionCountReplied'];
