@@ -9,7 +9,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Page Title</title>
+    <title>DBS Bar Chart</title>
     <link
         href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic'
         rel='stylesheet' type='text/css'/>
@@ -50,7 +50,7 @@
     <br>
 </div>
 <div class="container-fluid" align="center">
-    <div class="chart" id="columnchart_material" style="width: 1200px; height: 800px;"></div>
+    <div class="chart" id="columnchart_material" style="width: 1500px; height: 800px;"></div>
 </div>
 </body>
 </html>
